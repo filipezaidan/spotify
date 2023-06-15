@@ -1,13 +1,13 @@
 import { ListSongs } from "./Song";
 import { Header } from "./Header";
-import { Shows } from "./Show";
+import { Events } from "./Show";
 
 export const Content = () => {
   return (
-    <main className="flex flex-1  flex-col gap-12">
+    <main className="flex flex-col gap-10">
       <Header />
       <ListSongs />
-      <Shows />
+      <Events />
     </main>
   );
 };

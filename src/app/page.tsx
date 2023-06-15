@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex h-screen">
       <Sidebar />
-      <div className="flex flex-1 flex-col py-6 px-10 ">
+      <div className="flex flex-1 flex-col py-6 px-10  justify-between">
         <Content />
         <Footer />
       </div>
