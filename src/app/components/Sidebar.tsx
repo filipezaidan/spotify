@@ -10,15 +10,15 @@ export const Sidebar = () => {
       </div>
 
       <div className="flex flex-col">
-        <ButtonLink title="Home" icon="/home.svg" />
-        <ButtonLink title="Search" icon="/search.svg" />
-        <ButtonLink title="Library" icon="/library.svg" />
+        <ButtonLink title="Home" icon="/icons/home.svg" />
+        <ButtonLink title="Search" icon="/icons/search.svg" />
+        <ButtonLink title="Library" icon="/icons/library.svg" />
       </div>
 
       <div className="mt-4">
-        <ButtonLink title="Create Playlist" icon="/playlist.svg" />
-        <ButtonLink title="Linked Songs" icon="/songs.svg" />
-        <ButtonLink title="Your Episodes" icon="/episodes.svg" />
+        <ButtonLink title="Create Playlist" icon="/icons/playlist.svg" />
+        <ButtonLink title="Linked Songs" icon="/icons/songs.svg" />
+        <ButtonLink title="Your Episodes" icon="/icons/episodes.svg" />
       </div>
 
       <div className="mt-4 flex flex-col gap-4 ">
