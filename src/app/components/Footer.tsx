@@ -12,7 +12,7 @@ export const Footer = () => {
           <strong className="text-lg font-bold text-white">Dreaming On</strong>
           <span className="text-base font-bold text-zinc-400">NEFFEX</span>
         </div>
-        <Heart />
+        <Heart color="#3432" />
       </div>
       {/* Player controls */}
       <div>palyer controls</div>
