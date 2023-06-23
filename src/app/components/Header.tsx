@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <div className="flex w-full h-auto justify-between">
       <div className="flex gap-5">
-        <button className="w-12 h-12 bg-neutral-900 rounded-full p-2">
+        <button className="w-12 h-12 bg-neutral-950 text-white rounded-full p-2">
           <Image
             width={40}
             height={40}
@@ -13,7 +13,7 @@ export const Header = () => {
             alt="Arrow left icon"
           />
         </button>
-        <button className="w-12 h-12 bg-neutral-900 rounded-full p-2">
+        <button className="w-12 h-12 bg-neutral-950 text-white rounded-full p-2">
           <Image
             width={40}
             height={40}

@@ -4,7 +4,7 @@ import { TextLink } from "./TextLink";
 
 export const Sidebar = () => {
   return (
-    <aside className="flex w-64 bg-black p-2 flex-col">
+    <aside className="flex w-64 h-full bg-black p-2 flex-col fixed">
       <div className="mx-4 my-5">
         <Logo />
       </div>

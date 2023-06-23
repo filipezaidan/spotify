@@ -8,7 +8,7 @@ interface IEventCard {
 
 export const EventCard = ({ title, author, img }: IEventCard) => {
   return (
-    <button className="flex items-center rounded-md flex-col justify-center w-60 h-auto p-5 bg-zinc-800 gap-6">
+    <button className="flex rounded-md flex-col justify-center w-60 h-auto p-5 bg-zinc-800 gap-6">
       <Image
         className="rounded-xl"
         width={240}
