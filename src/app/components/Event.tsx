@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface IEventCard {
   title: string;
@@ -8,7 +9,7 @@ interface IEventCard {
 
 export const EventCard = ({ title, author, img }: IEventCard) => {
   return (
-    <button className="flex rounded-md flex-col justify-center w-60 h-auto p-5 bg-zinc-800 gap-6">
+    <button className="flex rounded-md flex-col justify-center w-56 h-auto p-5 bg-zinc-800 gap-6">
       <Image
         className="rounded-xl"
         width={240}
@@ -27,9 +28,14 @@ export const EventCard = ({ title, author, img }: IEventCard) => {
 export const Events = () => {
   return (
     <div className="flex w-full flex-col gap-7 ">
-      <h3 className="font-bold text-2xl">Shows you might like</h3>
+      <div className="flex justify-between">
+        <h3 className="font-bold text-2xl">Shows you might like</h3>
+        <Link href="#">
+          <span className="text-zinc-400 font-bold">See all</span>
+        </Link>
+      </div>
 
-      <div className="grid grid-flow-row grid-cols-6 gap-x-7">
+      <div className="grid grid-flow-row grid-cols-5 gap-y-3">
         <EventCard
           title="Weekly Motivatio..."
           author="Ben Ina Scott"

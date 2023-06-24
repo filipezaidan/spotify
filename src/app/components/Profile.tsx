@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Profile = () => {
   return (
-    <div className="flex items-center  px-0.5 py-1  w-36 h-12 rounded-full bg-black gap-1">
+    <div className="flex items-center px-0.5 py-1 w-36 h-12 rounded-full bg-black gap-1">
       <Image
         width={40}
         height={40}

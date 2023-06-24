@@ -25,7 +25,7 @@ export const ListSongs = () => {
     <div className="flex flex-col flex-1 gap-6 ">
       <h2 className="text-3xl text-white font-bold">Good morning</h2>
 
-      <div className="grid grid-flow-row grid-cols-4  gap-5">
+      <div className="grid grid-flow-row grid-cols-4 gap-5">
         <Song title="Liked Songs" img="./songs/1.svg" />
         <Song title="Neffex Playlist" img="./songs/2.svg" />
         <Song title="K/ DA" img="./songs/3.svg" />
