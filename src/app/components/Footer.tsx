@@ -67,7 +67,7 @@ const InfoControls = () => {
 
 export const Footer = () => {
   return (
-    <footer className=" flex  w-full items-center fixed bottom-0 justify-between  h-28 z-10 p-5 bg-zinc-800">
+    <footer className=" border-t-2 border-zinc-800 flex w-full items-center fixed bottom-0 justify-between  h-28 z-10 p-5 bg-neutral-900">
       <MusicSelected />
       <PlayControls />
       <InfoControls />
